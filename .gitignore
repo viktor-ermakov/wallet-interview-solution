@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+.env
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+postgres_data/
+pgdata/
+*.sql.dump
+
+# FastAPI / Application
+instance/
+.alembic/
+migrations/versions/  # Keep this only if you want to ignore version files (usually keep them)
+.env
+.env.local
+.env.prod
+.env.development
+
+# Logs
+*.log
+logs/
+log/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+coverage.xml
+.coverage.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker (if you're using it)
+docker-compose.override.yml
+*.env
+
+# OS
+Thumbs.db
+
+git config --global user.email "victor.ermakov@gmail.com"
+git config --global user.name "Viktor Ermakov"
